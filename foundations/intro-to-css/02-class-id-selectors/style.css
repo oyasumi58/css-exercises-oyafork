@@ -1,0 +1,16 @@
+p {
+    background-color: rgb(255 182 193);
+    font-family: Verdana, sans-serif, "DejaVu Sans";
+}
+#top {
+    color:rgb(0 0 255);
+    font-size: 36px
+}
+.kol {
+    font-size: 24px;
+}
+#bottom {
+    background-color:hsl(120,100%,25.1%);
+    font-weight: bold;
+    font-size: 24px;
+}
