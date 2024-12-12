@@ -1,0 +1,12 @@
+.yup,
+.gag {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif; 
+}
+.gag{
+    color: rgb(255, 255, 255);
+    background-color: hsl(0, 0%, 0%);
+}
+.yup{
+    background-color: #efe813;
+}
