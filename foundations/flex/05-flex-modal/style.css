@@ -15,12 +15,28 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-size: 22px;
+  font-weight:bold;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+  gap:16px;
+  
+  
 }
+
+/* *{
+  border: 1px solid red;
+} */
+
+
 
 .icon {
   color: royalblue;
@@ -29,6 +45,8 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  min-width: 42px;
+  /* or flex-shrink:0; */
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -66,4 +84,24 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.borge {
+  display:flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.toprow {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+/* missed */
+.text {
+  margin-bottom: 16px;
+}
+.toprow {
+  margin-bottom: 8px;
 }
